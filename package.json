@@ -1,18 +1,17 @@
 {
   "name": "merge_butler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Reply with a custom message when user reports a PR is merged",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "immathanr",
   "license": "ISC",
   "dependencies": {
     "@slack/bolt": "^3.5.0",
     "axios": "^0.21.1",
-    "dotenv": "^10.0.0",
-    "slackbots": "^1.2.0"
+    "dotenv": "^10.0.0"
   }
 }
